@@ -29,10 +29,10 @@ This is a modern, responsive coffee shop website built using React.js and Vite. 
    cd coffee-shop-website
 
 2. Install dependencies:
-    npm install
+     npm install
 
 3. Start the development server:
-    npm run dev
+     npm run dev
 
 4. Open your browser and navigate to http://localhost:5173.
 
