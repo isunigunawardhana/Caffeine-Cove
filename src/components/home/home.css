@@ -1,0 +1,49 @@
+.home {
+    background: center / cover url(../../assets/home-bg.jpg);
+    min-height: calc(100vh + var(--header-height));
+    display: flex;
+    align-items: center;
+}
+
+.home_container {
+    width: 100%;
+}
+
+.home_content {
+    max-width: 660px;
+}
+
+.home_subtitle,
+.home_description {
+    color: var(--title-color);
+}
+
+.home_subtitle {
+    font-family: var(--second-font);
+    font-size: var(--h1-font-size);
+    font-weight: var(--weight-500);
+}
+
+.home_title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--weight-600);
+    margin-block: 1.25rem;
+}
+
+.home_description {
+    margin-bottom: 2.25rem;
+}
+
+.home_btns {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.home_btn {
+    background-color: transparent;
+}
+
+.home_btn:hover {
+    background-color: var(--first-color);
+    color: var(--title-color);
+}

@@ -1,0 +1,44 @@
+  .about {
+    padding-bottom: 0;
+  }
+
+  .about_grid {
+    display: grid; /* Ensure grid layout is applied */
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .about_img-wrapper {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .about_img-wrapper::before {
+    content: '';
+    position: absolute;
+    bottom: -1.125rem;
+    left: 0;
+    background-color: var(--first-color); /* Ensure this variable is defined */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .about_img {
+    width: 100%;
+  }
+
+  .about_details {
+    margin-block: 1.25rem 2.25rem;
+  }
+
+  .about_details-description {
+    display: flex;
+    align-items: center;
+  }
+
+  .about_details,
+  .about_details-description {
+    gap: 0.625rem;
+  }
