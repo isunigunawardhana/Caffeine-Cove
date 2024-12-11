@@ -1,4 +1,4 @@
-# Caffeine Cove 
+ # Caffeine Cove 
 
 Caffeine Cove is a coffee shop in Galle Fort. It is not your typical coffee shop. we craftevery cup and treat to order, ensuring a truly unique and personalized experience.
 
@@ -29,10 +29,10 @@ This is a modern, responsive coffee shop website built using React.js and Vite. 
    cd coffee-shop-website
 
 2. Install dependencies:
-     npm install
+      npm install
 
 3. Start the development server:
-     npm run dev
+      npm run dev
 
 4. Open your browser and navigate to http://localhost:5173.
 
@@ -40,10 +40,8 @@ This is a modern, responsive coffee shop website built using React.js and Vite. 
 
 To build and deploy the website:
 
-1. Build the project:   
-        npm run build
+1. Build the project: npm run build
 
-2. Preview the production build:    
-        npm run preview
+2. Preview the production build: npm run preview
 
 3. Deploy to your hosting provider
