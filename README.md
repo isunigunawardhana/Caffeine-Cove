@@ -36,21 +36,6 @@ This is a modern, responsive coffee shop website built using React.js and Vite. 
 
 4. Open your browser and navigate to http://localhost:5173.
 
-## Folder Structure
-
-coffee-shop-website/
-├── public/            
-├── src/
-│    ├── assets/          # Static assets (images, icons)
-│    ├── components/      # Reusable React components
-│    │    ├── pages/           # Page-specific components (Home, About, etc.)
-│    ├── App.jsx          # Main application component
-│    ├── App.css          # Styles
-│    ├── main.jsx         # Entry point
-├── package.json
-├── vite.config.js
-└── README.md
-
 ## Deployment
 
 To build and deploy the website:
